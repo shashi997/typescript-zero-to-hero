@@ -1,0 +1,27 @@
+{
+  "name": "typescript-zero-to-hero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts": "tsc -v",
+    "dev": "tsx index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashi997/typescript-zero-to-hero.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shashi997/typescript-zero-to-hero/issues"
+  },
+  "homepage": "https://github.com/shashi997/typescript-zero-to-hero#readme",
+  "devDependencies": {
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
