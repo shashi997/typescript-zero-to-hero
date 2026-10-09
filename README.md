@@ -118,4 +118,12 @@ npm install -D tsx
 
 Now, when you run `npm run dev`, you can directly execute TypeScript on Node.js without needing to pre-compile your files first!
 
+### Running Any File Directly with `tsx`
+
+Since you installed `tsx`, you **don't** need to edit your `package.json` scripts every time you create a new file or chapter. You can run any TypeScript file directly from your terminal using `npx tsx`:
+
+```bash
+npx tsx src/01-why-typescript.ts
+npx tsx src/02-basic-types.ts
+```
 
